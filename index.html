@@ -9,8 +9,11 @@
 </head>
 <body>
     <header id="header">
-        <img src="./image/header-img.png" alt="logo" id="header-img">
-        <p class="header-name">VR the Champion</p>
+        <div class="logo">
+            <img src="./image/header-img.png" alt="logo" id="header-img">
+            <p class="header-name">VR the Champion</p>
+        </div>
+        
         <nav id="nav-bar">
             <a href="#features" id="nav-link">Features</a>
             <a href="#works" id="nav-link">How it works</a>
@@ -19,11 +22,51 @@
         </nav>
     </header>
     <main id="main">
-        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ybyib5pAq7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <h2 class="form-title">Become a member of VR club</h2>
             <input name="email" id="email" type="email" placeholder="Enter your email address" required></input>
             <input type="submit" id="submit" class="btn" value="Get Started">
         </form>
+        <section class="features">
+            <div class="features-block">
+                <div class="grid-1">
+                    <div class="icon">
+                        <img src="./image/feature-3.svg" alt="VR helmet" class="features-img">
+                    </div>
+                    <div class="desc">
+                        <h2>Exploring places without being there</h2>
+                        <p>Virtual reality refers to the imaginary environment made with the help of technology with an essence of reality. It helps therefore to explore various places without even going to that place.</p>
+                    </div>
+                </div>
+            </div>
+           <div class="features-block">
+                <div class="grid-2">
+                    <div class="icon">
+                        <img src="./image/feature-1.svg" alt="VR helmet" class="features-img">
+                    </div>
+                    <div class="desc">
+                        <h2>Lowest risk</h2>
+                        <p>Virtual reality is an imaginary world created by the developer to study or make people experience different realities of life. Therefore the risk involved in experiencing the knowledge gathered through books is almost low.</p>
+                    </div>
+                </div>               
+            </div>
+            <div class="features-block">
+                <div class="grid-3">
+                    <div class="icon">
+                        <img src="./image/feature-2.svg" alt="VR helmet" class="features-img">
+                    </div>
+                    <div class="description">
+                        <h2>Improve education system</h2>
+                        <p>he old text-based learning has now been replaced by virtual study in which a teacher teaches the student with the help of virtual reality equipment. This equipment allows the user to see the imaginary environment based on the topic and analyze the study.</p>
+                </div>
+            </div>
+        </section>
+        <div class="video">
+            <h3 class="video-title">How VR works?</h3>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ybyib5pAq7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+   
+        
         
     </main>
 </body>
