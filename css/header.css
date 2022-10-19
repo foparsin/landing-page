@@ -108,6 +108,7 @@ header {
     height: 125px;
     width: 75px;
     color: darkorange;
+    margin-right: 10px;
 }
 .description {
     display: flex;
